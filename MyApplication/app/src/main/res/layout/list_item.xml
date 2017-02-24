@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="200dp"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
     android:orientation="vertical"
     android:background="@drawable/rounded_cornor">
 
@@ -27,12 +30,11 @@
                 android:id="@+id/lbl_app_name"
                 android:fontFamily="sans-serif-medium"
                 android:text="Hacking Tutorial"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:singleLine="true"
                 android:paddingLeft="10dp"
                 android:gravity="center_vertical"
                 android:layout_gravity="center"
@@ -40,7 +42,7 @@
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_weight="0.4"
+                android:layout_weight="0.5"
                 android:layout_marginRight="20dp"
                 android:src="@android:drawable/ic_dialog_dialer"
                 />
@@ -60,7 +62,7 @@
                 android:layout_gravity="end"
                 android:gravity="center_vertical|end"
                 android:layout_height="match_parent"
-                android:layout_weight="0.3"
+                android:layout_weight="0.6"
                 />
             <ImageView
                 android:layout_width="0dp"

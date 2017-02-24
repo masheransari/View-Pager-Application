@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity
                         className = "Editor Choice Class";
                 }
 
-                Snackbar.make(view, ""+className, Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "" + className, Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
