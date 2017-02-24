@@ -6,7 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.iq.playstoreapp.adapters.WordAdapter;
 import com.example.iq.playstoreapp.variables.CustomClass;
@@ -38,6 +40,12 @@ public class carts extends Fragment {
 
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Toast.makeText(getContext(), ""+blockArrayList1.get(position).getApp_name().toString(), Toast.LENGTH_SHORT).show();
+        }
+    });
         return rootView;
     }
 

@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.example.iq.playstoreapp.variables.CustomClass;
 import com.example.iq.playstoreapp.R;
 
