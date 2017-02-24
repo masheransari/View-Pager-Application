@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     android:id="@+id/list"
-    android:dividerHeight="15sp"
-    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="5dp"
-    android:minHeight="250dp">
+    android:dividerHeight="15sp"
+    android:minHeight="250dp"
+    android:orientation="vertical"
+    android:scrollbars="none">
 
 </ListView>
