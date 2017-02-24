@@ -5,4 +5,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="cart">Top Carts</string>
+    <string name="game">Games</string>
+    <string name="category">Category</string>
+    <string name="early">Early Access</string>
+    <string name="family">Family</string>
+    <string name="editor">Editor Choice</string>
 </resources>

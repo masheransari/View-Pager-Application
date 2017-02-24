@@ -15,6 +15,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.iq.playstoreapp.adapters.CategoryAdapter;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -37,6 +39,14 @@ public class MainActivity extends AppCompatActivity
 //                        .setAction("Action", null).show();
 //            }
 //        });
+
+        mTabLayout = (TabLayout)findViewById(R.id.tab);
+        mViewPager = (ViewPager)findViewById(R.id.viewPager);
+        CategoryAdapter categoryAdapter = new CategoryAdapter(this,getSupportFragmentManager());
+
+        mViewPager.setAdapter(categoryAdapter);
+        mTabLayout.setupWithViewPager(mViewPager);
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
